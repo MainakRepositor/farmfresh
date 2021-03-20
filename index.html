@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script>
+        function stickyMenu()
+        {
+            var sticky=document.getElementById('sticky');
+            if(window.pageYOffset > 220)
+            {
+            sticky.classList.add('sticky');
+            }
+            else
+            {
+                sticky.classList.remove('sticky');
+            }
+        } 
+       window.onscroll = function()
+       {
+           stickyMenu();
+       }
+     </script>
+    <title>Farm-Fresh</title>
+</head>
+<body>
+    <div class="parallax">
+        <div class="page-title">Farm Fresh</div>
+    </div>
+    <!--Navbar begins-->
+    <div class="menu" id="sticky">
+        <ul class="menu-ul">
+            <a href="#" class="a-menu"><li>Get fresh farm produce at your doorsteps</li></a>
+            
+
+        </ul>
+        <div class="search-box">
+            <form>
+                <input type="text" placeholder="Search..." name="search" class="search-input"/>
+                <button type="submit"><i class="fa fa-search"></i>
+
+                </button>
+
+            </form>
+        </div>
+    </div>
+    <!--Navbar ends-->
+    <!--Home page begins-->
+    <div class="container">
+        <a href="#vegetables">
+            <div class="categories">
+                <img src="veg.jpg" class="item-image"/>
+                <div class="image-title">
+                    Vegetables
+                </div>
+            </div>
+        </a>
+        <a href="#fruits">
+            <div class="categories">
+                <img src="veg.jpg" class="item-image"/>
+                <div class="image-title">
+                    Fruits
+                </div>
+            </div>
+        </a>
+        <a href="#meat">
+            <div class="categories">
+                <img src="veg.jpg" class="item-image"/>
+                <div class="image-title">
+                    Meat
+                </div>
+            </div>
+        </a>
+        <a href="#deals">
+            <div class="categories">
+                <img src="veg.jpg" class="item-image"/>
+                <div class="image-title">
+                    Deals
+                </div>
+            </div>
+        </a>
+    </div>
+    <!--Deals section begins-->
+    <div class="deals-container" id="deals">
+        <div class="title">DEALS</div>
+    
+        <div class="deal">
+            Get flat 20% off on minimum purchase amount of vegetables worth Rs.1000<br>
+            <button class="coupon-btn">Add Coupon</button>
+        </div>
+        <div class="deal">
+            Get flat 15% off on minimum purchase amount of fruits worth Rs.1200<br>
+            <button class="coupon-btn">Add Coupon</button>
+        </div>
+        <div class="deal">
+            Get 10% off on minimum purchase amount of meat and seafood worth Rs.1500<br>
+            <button class="coupon-btn">Add Coupon</button>
+        </div>
+    </div>
+    <!--Deals section ends-->
+    <!--Veg begins-->
+    <div class="deals-container" id="vegetables">
+        <div class="parallax">
+            <div class="title">VEGES</div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Carrot</b><br/>
+                    <div class="item-select">
+                        Price:Rs.50/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Cabbage</b><br/>
+                    <div class="item-select">
+                        Price:Rs.30/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Tomatoes</b><br/>
+                    <div class="item-select">
+                        Price:Rs.80/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Green Peas</b><br/>
+                    <div class="item-select">
+                        Price:Rs.50/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Onions</b><br/>
+                    <div class="item-select">
+                        Price:Rs.90/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Spinach</b><br/>
+                    <div class="item-select">
+                        Price:Rs.20/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Raddish</b><br/>
+                    <div class="item-select">
+                        Price:Rs.40/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Cucumber</b><br/>
+                    <div class="item-select">
+                        Price:Rs.25/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Brinjal</b><br/>
+                    <div class="item-select">
+                        Price:Rs.45/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Potatoes</b><br/>
+                    <div class="item-select">
+                        Price:Rs.30/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Garlic</b><br/>
+                    <div class="item-select">
+                        Price:Rs.80/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Bitter-gourd</b><br/>
+                    <div class="item-select">
+                        Price:Rs.45/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Gourd</b><br/>
+                    <div class="item-select">
+                        Price:Rs.30/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Okra</b><br/>
+                    <div class="item-select">
+                        Price:Rs.60/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Cauliflower</b><br/>
+                    <div class="item-select">
+                        Price:Rs.55/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Spring-onion</b><br/>
+                    <div class="item-select">
+                        Price:Rs.65/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+    </div>
+    <!--Veg ends-->
+    <!--Fruits begins-->
+        <div class="deals-container" id="fruits">
+        <div class="parallax">
+            <div class="title">FRUITS</div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Apple</b><br/>
+                    <div class="item-select">
+                        Price:Rs.100/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Grapes</b><br/>
+                    <div class="item-select">
+                        Price:Rs.70/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Bananas</b><br/>
+                    <div class="item-select">
+                        Price:Rs.60/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Lemons</b><br/>
+                    <div class="item-select">
+                        Price:Rs.30/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Watermelons</b><br/>
+                    <div class="item-select">
+                        Price:Rs.90/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Oranges</b><br/>
+                    <div class="item-select">
+                        Price:Rs.85/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Mangoes</b><br/>
+                    <div class="item-select">
+                        Price:Rs.60/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Custard Apple</b><br/>
+                    <div class="item-select">
+                        Price:Rs.75/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Litchi</b><br/>
+                    <div class="item-select">
+                        Price:Rs.65/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Jackfruit</b><br/>
+                    <div class="item-select">
+                        Price:Rs.80/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Strawberries</b><br/>
+                    <div class="item-select">
+                        Price:Rs.80/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Peach</b><br/>
+                    <div class="item-select">
+                        Price:Rs.125/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Cherry</b><br/>
+                    <div class="item-select">
+                        Price:Rs.120/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Plum</b><br/>
+                    <div class="item-select">
+                        Price:Rs.160/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Guava</b><br/>
+                    <div class="item-select">
+                        Price:Rs.35/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Pine Apple</b><br/>
+                    <div class="item-select">
+                        Price:Rs.65/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+    </div>
+   
+    <!--Fruits ends-->
+
+    <!--Meat begins-->
+    <div class="deals-container" id="meat">
+        <div class="parallax">
+            <div class="title">MEAT AND SEAFOOD</div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Chicken</b><br/>
+                    <div class="item-select">
+                        Price:Rs.190/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>2kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Mutton</b><br/>
+                    <div class="item-select">
+                        Price:Rs.470/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Pork</b><br/>
+                    <div class="item-select">
+                        Price:Rs.500/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Beef</b><br/>
+                    <div class="item-select">
+                        Price:Rs.730/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Rohu</b><br/>
+                    <div class="item-select">
+                        Price:Rs.220/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>2kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Bombay Duck</b><br/>
+                    <div class="item-select">
+                        Price:Rs.285/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>3kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Prawn</b><br/>
+                    <div class="item-select">
+                        Price:Rs.400/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750grams</option>
+                        <option>1kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Hilsa</b><br/>
+                    <div class="item-select">
+                        Price:Rs.475/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>3kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Pomfret</b><br/>
+                    <div class="item-select">
+                        Price:Rs.300/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>2kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Sardin</b><br/>
+                    <div class="item-select">
+                        Price:Rs.280/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>2kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Kiwi</b><br/>
+                    <div class="item-select">
+                        Price:Rs.280/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>5kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="veg.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Crab</b><br/>
+                    <div class="item-select">
+                        Price:Rs.425/kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>1kg</option>
+                        <option>3kg</option>
+                    </select><br/>
+                    <button class="buynow-bthn">Buy Now</button>
+                </div>
+            </div>
+            
+            
+    </div>
+    <!--Meat ends-->
+    <!--Footer starts-->
+    <div class="parallax1">
+        <div class="footer">
+            <div class="quick-links">
+                <div>Locations</div>
+                <ul>
+                    <li><a href="#" class="a-links"></a>Address 1</li>
+                    <li><a href="#" class="a-links"></a>Address 2</li>
+                    <li><a href="#" class="a-links"></a>Address 3</li>
+                </ul>
+            </div>
+
+            <div class="quick-links">
+            <div>Transporters</div>
+            <ul>
+                <li><a href="#" class="a-links"></a>ABC </li>
+                <li><a href="#" class="a-links"></a>FastSend</li>
+                <li><a href="#" class="a-links"></a>CaterPillar</li>
+            </ul>
+        </div>
+      
+            <div class="quick-links">
+            <div>Quick Links</div>
+            <ul>
+                <li><a href="#" class="a-links"></a>Contact us</li>
+                <li><a href="#" class="a-links"></a>FAQ</li>
+                <li><a href="#" class="a-links"></a>Help</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <center><i class="fas fa-copyright fa-lx"> 2021 by Mainak Software Solutions</i></center>
+    </div>
+    <!--Footer ends-->
+<!--Home page ends-->
+</body>
+</html>
